@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_refresh_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/transparent"
+        android:fadingEdge="none"
+        android:divider="@color/transparent"
+        android:dividerHeight="0dip"
+        />
+
+    <include
+        android:id="@+id/layout_void"
+        layout="@layout/include_void"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/layout_frozen"
+        layout="@layout/include_frozen"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/layout_no_net_wifi"
+        layout="@layout/include_no_net_work_view"
+        android:visibility="gone"
+        />
+    <include
+        android:id="@+id/layout_no_data"
+        layout="@layout/include_empty_view"
+        android:visibility="gone"
+        />
+
+    <include
+        android:id="@+id/layout_no_login"
+        layout="@layout/include_no_login_view" />
+
+    <include
+        android:id="@+id/layout_server_error"
+        layout="@layout/include_server_error"
+        android:visibility="gone"
+        />
+</RelativeLayout>

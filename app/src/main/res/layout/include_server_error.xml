@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:src="@mipmap/common_server_error"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_login_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="20dip"
+        android:textSize="@dimen/common_text_size"
+        android:text="服务器开小差去了，程序猿知道吗？"
+
+        />
+    </LinearLayout>
+</LinearLayout>

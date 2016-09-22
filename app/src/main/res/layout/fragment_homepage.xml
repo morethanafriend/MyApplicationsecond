@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/include_homepage_title"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/single_line_edit_height"
+        >
+        <cn.piaofun.user.ui.PagerSlidingTabStrip
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/single_line_edit_height"
+            >
+        </cn.piaofun.user.ui.PagerSlidingTabStrip>
+        <ImageView
+            android:layout_width="25.4dip"
+            android:layout_height="@dimen/single_line_edit_height"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/cover_show_type_icon"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <include
+            android:id="@+id/layout_void"
+            layout="@layout/include_void"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/layout_server_error"
+            layout="@layout/include_server_error"
+            android:visibility="gone"
+            />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_homepage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            >
+        </android.support.v4.view.ViewPager>
+
+
+        <Button android:id="@+id/btn_search"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dip"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

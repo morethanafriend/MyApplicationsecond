@@ -1,0 +1,53 @@
+<resources>
+    <string name="channel">${UMENG_CHANNEL_VALUE}</string>
+    <!--<string name="app_name">玩票</string>-->
+    <string name="anim_duration">250</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_show_detail">ShowDetailActivity</string>
+    <string name="title_activity_order_ticket">OrderTicketActivity</string>
+
+    <string name="load_success"></string>
+    <string name="less_than_one_day_express_not_allowed">您选择的快递交易距演出开场时间已不足24小时，为保证您能及时收货，请选择当面交易</string>
+    <string name="tip_frozen">您的帐号已被冻结</string>
+
+    <string name="advice_back">意见反馈</string>
+    <string name="evaluate">评价</string>
+    <string name="order_detail">订单详情</string>
+    <string name="face_address">*请联系卖家约定交易时间和地点</string>
+
+    <string name="promise_show">玩票保证您的资金安全\n真实有效的票源\n优先提供连座票\n没有任何额外费用</string>
+    <string name="promise_live">到了现场还没票？\n一键求票，\n卖家报价，择优成交！</string>
+    <string name="promise_order">付款成功后\n        可见卖家联系方式        \n款项由平台代收\n100%安全有保障</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="help_center">http://www.piaofun.cn/app/user/help.html</string>
+    <string name="about_me">http://www.piaofun.cn/app/user/about.html</string>
+    <string name="change_user_name">修改用户名</string>
+    <string name="title_activity_set_remark">SetRemarkActivity</string>
+    <string name="title_activity_re_price">RePriceActivity</string>
+    <string name="title_activity_pay">PayActivity</string>
+    <string name="title_activity_modify_receiver">ModifyReceiverActivity</string>
+    <string name="title_activity_close_order">CloseOrderActivity</string>
+    <string name="title_activity_wxentry">WXEntryActivity</string>
+    <!--eCWq6L3z8z2XekI3yTyZECPw-->
+    <string name="baidu_map_key">eCWq6L3z8z2XekI3yTyZECPw</string>
+    <string name="push_key">79d8954488fbce52a8dafb0e</string>
+    <string name="title_activity_order_set">OrderSetActivity</string>
+    <string name="title_activity_search_express">SearchExpressActivity</string>
+
+    <string name="service_error">服务器异常</string>
+    <string name="no_network">没有网络</string>
+    <string name="title_activity_find_search">FindSearchActivity</string>
+
+    <string name="superior_whorl_price">上轮出价</string>
+    <string name="locale_bid_price">本轮出价</string>
+
+
+    <string name="format_price">￥%s</string>
+    <string name="format_ticket_quantity">%d 张</string>
+    <string name="delivery_fee">运费：￥%s</string>
+    <string name="delivery_fee_none">包邮</string>
+</resources>
